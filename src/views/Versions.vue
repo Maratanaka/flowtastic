@@ -2,7 +2,7 @@
   <section class="flex items-center justify-center p-8">
     <div class="max-w-2xl w-full bg-slate-900/50 backdrop-blur-xl border border-slate-700 rounded-2xl shadow-xl p-8 mt-10">
       <h2 class="text-3xl font-semibold text-center mb-10 text-cyan-400">
-        Fejlesztési mérföldkövek 🚀
+        Fejlesztési mérföldkövek 🧱
       </h2>
 
       <fwb-timeline>

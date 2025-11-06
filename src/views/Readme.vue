@@ -1,5 +1,5 @@
 <template>
-  <h1 class="title">Teljes Dokumentáció</h1>
+  <h1 class="title">Teljes Dokumentáció 🖊️</h1>
   <section class="flex justify-center p-8 pt-28 pb-10">
     <div class="grid grid-cols-1 md:grid-cols-[250px_minmax(0,1fr)] gap-8 max-w-7xl w-full">
     <!-- Sidebar -->

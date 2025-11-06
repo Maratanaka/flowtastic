@@ -8,7 +8,7 @@
           <div class="w-8 h-8 bg-cyan-400 rounded-full flex items-center justify-center font-bold text-gray-900">
             F
           </div>
-          <span class="text-xl font-semibold tracking-wide text-cyan-400">FlowTastic</span>
+          <a href="/"><span class="text-xl font-semibold tracking-wide text-cyan-400">FlowTastic</span></a> 
         </div>
 
         <!-- Menü gomb (mobilra) -->
@@ -25,7 +25,7 @@
         <!-- Menü (desktop) -->
         <ul class="hidden md:flex space-x-8 text-gray-300 font-medium">
           <li><RouterLink to="/" class="hover:text-cyan-400 transition-colors">Kezdőlap</RouterLink></li>
-          <li><RouterLink to="/about" class="hover:text-cyan-400 transition-colors">Rólunk</RouterLink></li>
+          <li><RouterLink to="/about" class="hover:text-cyan-400 transition-colors">Áttekintés</RouterLink></li>
           <li><RouterLink to="/versions" class="hover:text-cyan-400 transition-colors">Verziók</RouterLink></li>
           <li><RouterLink to="/contact" class="hover:text-cyan-400 transition-colors">Kapcsolat</RouterLink></li>
           <li><RouterLink to="/readme" class="text-cyan-400 transition-colors">README</RouterLink></li>
@@ -36,7 +36,7 @@
       <transition name="fade">
         <ul v-if="menuOpen" class="md:hidden flex flex-col bg-slate-900 border-t border-slate-700 text-gray-300 p-4 space-y-3">
           <li><RouterLink to="/" class="block hover:text-cyan-400 transition-colors">Kezdőlap</RouterLink></li>
-          <li><RouterLink to="/about" class="block hover:text-cyan-400 transition-colors">Rólunk</RouterLink></li>
+          <li><RouterLink to="/about" class="block hover:text-cyan-400 transition-colors">Áttekintés</RouterLink></li>
           <li><RouterLink to="/versions" class="block hover:text-cyan-400 transition-colors">Verziók</RouterLink></li>
           <li><RouterLink to="/contact" class="block hover:text-cyan-400 transition-colors">Kapcsolat</RouterLink></li>
           <li><RouterLink to="/readme" class="hover:text-cyan-400 transition-colors">README</RouterLink></li>
@@ -50,7 +50,7 @@
     </main>
 
     <!-- 🌙 FOOTER -->
-    <footer class="border-t border-slate-700 bg-slate-900/70 backdrop-blur-xl mt-10">
+    <footer class="border-t border-slate-700 bg-slate-900/70 backdrop-blur-xl mt-7">
       <fwb-footer class="dark-footer">
         <fwb-footer-copyright
           by="Flowbite™"
@@ -58,10 +58,9 @@
           copyright-message="All Rights Reserved."
         />
         <fwb-footer-link-group>
-          <fwb-footer-link href="#">About</fwb-footer-link>
-          <fwb-footer-link href="#">Privacy Policy</fwb-footer-link>
-          <fwb-footer-link href="#">Licensing</fwb-footer-link>
-          <fwb-footer-link href="#">Contact</fwb-footer-link>
+          <fwb-footer-link href="#">Áttekintés</fwb-footer-link>
+          <fwb-footer-link href="#">Verziók</fwb-footer-link>
+          <fwb-footer-link href="#">Kapcsolat</fwb-footer-link>
           <fwb-footer-link href="#">README</fwb-footer-link>
         </fwb-footer-link-group>
       </fwb-footer>
