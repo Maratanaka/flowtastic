@@ -3,20 +3,20 @@
     <h3 class="text-lg font-semibold mb-3 text-white">Tartalomjegyzék</h3>
     <ul class="space-y-2 text-gray-300">
 
-    <li><a href="#database" class="text-cyan-400">Adatbázis Kapcsolatok</a></li>
-    <li><a href="#user" class="hover:text-cyan-500">1. User</a></li>
-    <li><a href="#customer" class="hover:text-cyan-500">2. Customer</a></li>
-    <li><a href="#product" class="hover:text-cyan-500">3. Product</a></li>
-    <li><a href="#order" class="hover:text-cyan-500">4. Order</a></li>
-    <li><a href="#orderproduct" class="hover:text-cyan-500">5. OrderProduct</a></li>
-    <li><a href="#orderstatus" class="hover:text-cyan-500">6. OrderStatus</a></li>
-    <li><a href="#relationships" class="hover:text-cyan-500">Adatbázis Kapcsolatok</a></li>
+    <li><a href="#database" class="text-cyan-400">1. Adatbázis Kapcsolatok</a></li>
+    <li><a href="#user" class="hover:text-cyan-500">1.1 User</a></li>
+    <li><a href="#customer" class="hover:text-cyan-500">1.2 Customer</a></li>
+    <li><a href="#product" class="hover:text-cyan-500">1.3 Product</a></li>
+    <li><a href="#order" class="hover:text-cyan-500">1.4 Order</a></li>
+    <li><a href="#orderproduct" class="hover:text-cyan-500">1.5 OrderProduct</a></li>
+    <li><a href="#orderstatus" class="hover:text-cyan-500">1.6 OrderStatus</a></li>
+    <li><a href="#relationships" class="hover:text-cyan-500">1.7 Adatbázis Kapcsolatok</a></li>
 
-    <li><a href="#api" class="text-indigo-400">API Végpontok</a></li>
-    <li><a href="#authcon" class="hover:text-indigo-500">1. AuthController (/api/auth)</a></li>
-    <li><a href="#custcon" class="hover:text-indigo-500">2. CustomersController (/api/customers)</a></li>
-    <li><a href="#prodcon" class="hover:text-indigo-500">3. ProductsController (/api/products)</a></li>
-    <li><a href="#ordcon" class="hover:text-indigo-500">4. OrdersController (/api/orders)</a></li>
+    <li><a href="#api" class="text-indigo-400">2. API Végpontok</a></li>
+    <li><a href="#authcon" class="hover:text-indigo-500">2.1 AuthController (/api/auth)</a></li>
+    <li><a href="#custcon" class="hover:text-indigo-500">2.2 CustomersController (/api/customers)</a></li>
+    <li><a href="#prodcon" class="hover:text-indigo-500">2.3 ProductsController (/api/products)</a></li>
+    <li><a href="#ordcon" class="hover:text-indigo-500">2.4 OrdersController (/api/orders)</a></li>
 
     <li><a href="#services" class="text-pink-400">Szolgáltatási Réteg (Services)</a></li>
     <li><a href="#authser" class="hover:text-pink-500">1. AuthService</a></li>
